@@ -1,0 +1,59 @@
+.center-nav {
+    display:flex !important;
+    align-items: center !important;
+    color:deeppink;
+
+}
+
+h1.main-title {
+    font-size: 120px;
+    color:deeppink;
+}
+.main_subtitle h2 {
+    font-size: 120px;
+    color:deeppink;
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.main-cake {
+    animation: rotating 3s infinite;
+}
+
+
+.panel .sections .menu.uppercase li {
+    font-size: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .sections.desktop {
+        display:none;
+    }
+    .panel .sections.hidden {
+        display: block !important;
+    }
+    .panel .hidden * {
+        display: block;
+    }
+    h1.main-title {
+        font-size: 60px;
+
+    }
+    .main_subtitle h2 {
+        font-size: 60px;
+
+    }
+
+    .button.actionButton {
+        margin-left:120px !important;
+    }
+
+
+}
